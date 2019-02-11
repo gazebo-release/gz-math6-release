@@ -1,3 +1,21 @@
+ignition-math6 (6.0.0-1~bionic) bionic; urgency=medium
+
+  * ignition-math6 6.0.0-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Thu, 31 Jan 2019 14:45:46 -0800
+
+ignition-math6 (6.0.0~pre4-3~bionic) bionic; urgency=medium
+
+  * ignition-math6 6.0.0~pre4-3 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Tue, 11 Sep 2018 10:20:56 -0700
+
+ignition-math6 (6.0.0~pre4-2~bionic) bionic; urgency=medium
+
+  * ignition-math6 6.0.0~pre4-2 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Fri, 31 Aug 2018 10:36:32 -0700
+
 ignition-math6 (6.0.0~pre4-1~bionic) bionic; urgency=medium
 
   * ignition-math6 6.0.0~pre4-1 release

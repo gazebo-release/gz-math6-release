@@ -1,5 +1,1 @@
-usr/include/*
-usr/lib/*/*.so
-usr/lib/*/pkgconfig/*.pc
-usr/lib/*/cmake/ignition-math6/*
-usr/share/ignition/*/*
+usr/lib/*/cmake/ignition-math[0-99]-all/ignition-math[0-99]-all*

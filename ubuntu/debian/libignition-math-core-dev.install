@@ -1,0 +1,7 @@
+usr/include/ignition/math[0-99]/ignition/math.hh
+usr/include/ignition/math[0-99]/ignition/math/*.hh
+usr/include/ignition/math[0-99]/ignition/math/detail/*.hh
+usr/lib/*/libignition-math[0-99].so
+usr/lib/*/pkgconfig/ignition-math[0-99].pc
+usr/lib/*/cmake/ignition-math[0-99]/ignition-math*
+usr/share/ignition/*/*

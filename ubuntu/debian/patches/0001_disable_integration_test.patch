@@ -1,0 +1,9 @@
+diff -r 44350df6e313 test/integration/CMakeLists.txt
+--- a/test/integration/CMakeLists.txt	Fri Oct 04 17:19:00 2019 +0000
++++ b/test/integration/CMakeLists.txt	Mon Oct 07 17:08:18 2019 +0200
+@@ -9,4 +9,4 @@
+     COMMAND bash ${CMAKE_CURRENT_BINARY_DIR}/all_symbols_have_version.bash $<TARGET_FILE:${PROJECT_LIBRARY_TARGET_NAME}>)
+ endif()
+
+-ign_build_tests(TYPE INTEGRATION SOURCES ${tests})
++# ign_build_tests(TYPE INTEGRATION SOURCES ${tests})

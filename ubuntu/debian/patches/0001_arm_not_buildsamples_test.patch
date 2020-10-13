@@ -10,7 +10,7 @@ index 8ae5f5e..a3245b8 100644
  {
    // \todo(nkoenig) Fix windows.
 -#ifndef _WIN32
-+#if defined(__arm__)
++#ifndef defined(__arm__)
    // Path to examples of the given type
    std::string examplesDir = std::string(PROJECT_SOURCE_PATH) + "/examples/";
  

@@ -1,3 +1,9 @@
+ignition-math6 (6.7.0-1~focal) focal; urgency=medium
+
+  * ignition-math6 6.7.0-1 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Mon, 23 Nov 2020 16:44:28 -0800
+
 ignition-math6 (6.6.0-1~focal) focal; urgency=medium
 
   * ignition-math6 6.6.0-1 release

@@ -1,0 +1,15 @@
+diff --git a/src/SpeedLimiter_TEST.cc b/src/SpeedLimiter_TEST.cc
+index 08cb396..c01a670 100644
+--- a/src/SpeedLimiter_TEST.cc
++++ b/src/SpeedLimiter_TEST.cc
+@@ -58,7 +58,7 @@ TEST(SpeedLimiterTest, Default)
+ 
+   vel = 0.0;
+   EXPECT_DOUBLE_EQ(0.0, limiter.Limit(vel, 4.0, 3.0, 1ms));
+-  EXPECT_DOUBLE_EQ(0.0, vel);
++  EXPECT_NEAR(0.0, vel, 1e-6);
+ }
+ 
+ /////////////////////////////////////////////////
+
+

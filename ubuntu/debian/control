@@ -27,6 +27,13 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Math Library - Shared library
+ A small, fast, and high performance math library. This library is a
+ self-contained set of classes and functions suitable for robot applications.
+ .
+ Ignition Robotics is a set of simple libraries that provide useful
+ functionality to bootstrap robot applications. The included libraries
+ encapsulate all the essentials, such as common math data types, console
+ logging, 3D mesh management, and asynchronous message passing.
 
 Package: libignition-math6-dev
 Architecture: any
@@ -36,6 +43,13 @@ Depends: libignition-math6 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Math Library - Development files
+ A small, fast, and high performance math library. This library is a
+ self-contained set of classes and functions suitable for robot applications.
+ .
+ Ignition Robotics is a set of simple libraries that provide useful
+ functionality to bootstrap robot applications. The included libraries
+ encapsulate all the essentials, such as common math data types, console
+ logging, 3D mesh management, and asynchronous message passing.
 
 Package: libignition-math6-eigen3-dev
 Architecture: any
@@ -45,6 +59,13 @@ Depends: libignition-math6-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Math Library - Eigen3 Development files
+ A small, fast, and high performance math library. This library is a
+ self-contained set of classes and functions suitable for robot applications.
+ .
+ Ignition Robotics is a set of simple libraries that provide useful
+ functionality to bootstrap robot applications. The included libraries
+ encapsulate all the essentials, such as common math data types, console
+ logging, 3D mesh management, and asynchronous message passing.
 
 Package: python3-ignition-math6
 Architecture: all
@@ -52,6 +73,13 @@ Depends: ${misc:Depends},
          ${python3:Depends}
 Enhances: libignition-math6
 Description: Ignition Robotics Math Library - Python3 bindings
+ A small, fast, and high performance math library. This library is a
+ self-contained set of classes and functions suitable for robot applications.
+ .
+ Ignition Robotics is a set of simple libraries that provide useful
+ functionality to bootstrap robot applications. The included libraries
+ encapsulate all the essentials, such as common math data types, console
+ logging, 3D mesh management, and asynchronous message passing.
 
 Package: ruby-ignition-math6
 Architecture: any
@@ -60,6 +88,13 @@ Depends: ${misc:Depends},
          ${ruby:Depends},
          ${shlibs:Depends}
 Description: Ignition Robotics Math Library - Ruby bindings
+ A small, fast, and high performance math library. This library is a
+ self-contained set of classes and functions suitable for robot applications.
+ .
+ Ignition Robotics is a set of simple libraries that provide useful
+ functionality to bootstrap robot applications. The included libraries
+ encapsulate all the essentials, such as common math data types, console
+ logging, 3D mesh management, and asynchronous message passing.
 
 Package: libignition-math6-dbg
 Architecture: any
@@ -70,3 +105,11 @@ Depends:
      ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Math Library - Debugging symbols
+ A small, fast, and high performance math library. This library is a
+ self-contained set of classes and functions suitable for robot applications.
+ .
+ Ignition Robotics is a set of simple libraries that provide useful
+ functionality to bootstrap robot applications. The included libraries
+ encapsulate all the essentials, such as common math data types, console
+ logging, 3D mesh management, and asynchronous message passing.
+

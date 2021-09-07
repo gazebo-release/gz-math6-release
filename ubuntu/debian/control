@@ -68,7 +68,7 @@ Description: Ignition Robotics Math Library - Eigen3 Development files
  logging, 3D mesh management, and asynchronous message passing.
 
 Package: python3-ignition-math6
-Architecture: all
+Architecture: any
 Depends: ${misc:Depends},
          ${python3:Depends}
 Enhances: libignition-math6

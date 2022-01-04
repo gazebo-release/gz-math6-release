@@ -2,6 +2,12 @@ ignition-math6 (6.9.3~pre1-1~focal) focal; urgency=medium
 
   * ignition-math6 6.9.3~pre1-1 release
 
+ -- Alejandro Hernandez Cordero <alejandro@openrobotics.org>  Tue, 04 Jan 2022 19:15:46 +0100
+
+ignition-math6 (6.9.3~pre1-1~focal) focal; urgency=medium
+
+  * ignition-math6 6.9.3~pre1-1 release
+
  -- Alejandro Hernandez Cordero <alejandro@openrobotics.org>  Tue, 04 Jan 2022 19:15:03 +0100
 
 ignition-math6 (6.9.2-1~focal) focal; urgency=medium

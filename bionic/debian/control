@@ -5,12 +5,10 @@ Section: science
 Priority: extra
 Build-Depends: cmake,
                debhelper (>= 11),
-               dh-python,
                doxygen,
                libeigen3-dev,
                libignition-cmake2-dev,
                python3,
-               python3-dev,
                ruby-dev,
                ruby-ronn,
                swig

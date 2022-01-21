@@ -1,1 +1,101 @@
-../../ubuntu/debian/control
+Source: ignition-math6
+Standards-Version: 3.9.4
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: science
+Priority: extra
+Build-Depends: cmake,
+               debhelper (>= 11),
+               dh-python,
+               doxygen,
+               libeigen3-dev,
+               libignition-cmake2-dev,
+               python3,
+               python3-dev,
+               ruby-dev,
+               ruby-ronn,
+               swig
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign_math-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign_math-release
+Homepage: https://bitbucket.org/ignitionrobotics/ign_math
+XS-Ruby-Versions: all
+X-Python3-Version: >= 3.2
+
+Package: libignition-math6
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Robotics Math Library - Shared library
+ A small, fast, and high performance math library. This library is a
+ self-contained set of classes and functions suitable for robot applications.
+ .
+ Ignition Robotics is a set of simple libraries that provide useful
+ functionality to bootstrap robot applications. The included libraries
+ encapsulate all the essentials, such as common math data types, console
+ logging, 3D mesh management, and asynchronous message passing.
+
+Package: libignition-math6-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-math6 (= ${binary:Version}),
+         libignition-cmake2-dev,
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Robotics Math Library - Development files
+ A small, fast, and high performance math library. This library is a
+ self-contained set of classes and functions suitable for robot applications.
+ .
+ Ignition Robotics is a set of simple libraries that provide useful
+ functionality to bootstrap robot applications. The included libraries
+ encapsulate all the essentials, such as common math data types, console
+ logging, 3D mesh management, and asynchronous message passing.
+
+Package: libignition-math6-eigen3-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-math6-dev (= ${binary:Version}),
+         libeigen3-dev,
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Robotics Math Library - Eigen3 Development files
+ A small, fast, and high performance math library. This library is a
+ self-contained set of classes and functions suitable for robot applications.
+ .
+ Ignition Robotics is a set of simple libraries that provide useful
+ functionality to bootstrap robot applications. The included libraries
+ encapsulate all the essentials, such as common math data types, console
+ logging, 3D mesh management, and asynchronous message passing.
+
+Package: ruby-ignition-math6
+Architecture: any
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${misc:Depends},
+         ${ruby:Depends},
+         ${shlibs:Depends}
+Description: Ignition Robotics Math Library - Ruby bindings
+ A small, fast, and high performance math library. This library is a
+ self-contained set of classes and functions suitable for robot applications.
+ .
+ Ignition Robotics is a set of simple libraries that provide useful
+ functionality to bootstrap robot applications. The included libraries
+ encapsulate all the essentials, such as common math data types, console
+ logging, 3D mesh management, and asynchronous message passing.
+
+Package: libignition-math6-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends:
+     libignition-math6 (= ${binary:Version}),
+     ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Robotics Math Library - Debugging symbols
+ A small, fast, and high performance math library. This library is a
+ self-contained set of classes and functions suitable for robot applications.
+ .
+ Ignition Robotics is a set of simple libraries that provide useful
+ functionality to bootstrap robot applications. The included libraries
+ encapsulate all the essentials, such as common math data types, console
+ logging, 3D mesh management, and asynchronous message passing.
+

@@ -70,6 +70,7 @@ Description: Ignition Robotics Math Library - Eigen3 Development files
 Package: python3-ignition-math6
 Architecture: any
 Depends: ${misc:Depends},
+         libignition-math6-dev (= ${binary:Version}),
          python3-distutils,
          python3-pybind11,
          ${python3:Depends}
@@ -87,6 +88,7 @@ Package: ruby-ignition-math6
 Architecture: any
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${misc:Depends},
+         libignition-math6-dev (= ${binary:Version}),
          ${ruby:Depends},
          ${shlibs:Depends}
 Description: Ignition Robotics Math Library - Ruby bindings

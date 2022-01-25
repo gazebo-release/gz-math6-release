@@ -1,3 +1,9 @@
+ignition-math6 (6.9.3~pre2-4~focal) focal; urgency=medium
+
+  * ignition-math6 6.9.3~pre2-4 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 25 Jan 2022 20:42:07 +0100
+
 ignition-math6 (6.9.3~pre2-1~focal) focal; urgency=medium
 
   * ignition-math6 6.9.3~pre2-1 release

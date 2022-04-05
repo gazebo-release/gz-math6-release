@@ -1,3 +1,9 @@
+ignition-math6 (6.10.0-100~jammy) jammy; urgency=medium
+
+  * Rebuild same code for python3.10 transition
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 05 Apr 2022 19:51:16 +0200
+
 ignition-math6 (6.10.0-99~jammy) jammy; urgency=medium
 
   * ignition-math6 6.12.0-99 release

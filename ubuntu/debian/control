@@ -28,6 +28,9 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
+Provides: libignition-math6-6 (= ${binary:Version})
+Replaces: libignition-math6-6 (<< 6.0.0~)
+Breaks: libignition-math6-6 (<< 6.0.0~)
 Description: Ignition Robotics Math Library - Shared library
  A small, fast, and high performance math library. This library is a
  self-contained set of classes and functions suitable for robot applications.
@@ -45,6 +48,7 @@ Depends: libignition-math6 (= ${binary:Version}),
          ${misc:Depends}
 Replaces: libignition-math-dev (<< 6.0.0~)
 Breaks: libignition-math-dev (<< 6.0.0~)
+Provides: libignition-math-dev (= ${binary:Version})
 Multi-Arch: same
 Description: Ignition Robotics Math Library - Development files
  A small, fast, and high performance math library. This library is a

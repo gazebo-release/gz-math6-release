@@ -1,3 +1,9 @@
+ignition-math6 (6.11.0-2~jammy) jammy; urgency=medium
+
+  * ignition-math6 6.11.0-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 11 May 2022 21:36:04 +0200
+
 ignition-math6 (6.11.0-1~jammy) jammy; urgency=medium
 
   * ignition-math6 6.11.0-1 release

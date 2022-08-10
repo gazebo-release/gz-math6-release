@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ignmath
 Upstream-Contact: gazebo-list@gazebosim.org
-Source: https://bitbucket.org/ignitionrobotics/ign_math
+Source: https://github.com/gazebosim/gz-math
 
 Files: *
 Copyright: 2014-2015 Open Source Robotics Foundation
@@ -23,7 +23,7 @@ License: BSD-3-clause
 
 License: BSD-3-clause
  Software License Agreement (BSD License)
- . 
+ .
  Copyright (c) 2008, Willow Garage, Inc.
  All rights reserved.
  .
@@ -40,7 +40,7 @@ License: BSD-3-clause
   * Neither the name of the Willow Garage nor the names of its
     contributors may be used to endorse or promote products derived
     from this software without specific prior written permission.
- . 
+ .
  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS

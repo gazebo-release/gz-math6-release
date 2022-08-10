@@ -70,9 +70,6 @@ int main(int argc, char **argv)
     std::cout << "A line from (-2, 0.5) to (2, 0.5) does not intersect "
               << "the triangle\n";
   }
-
-  // There are more functions in Triangle. Take a look at the API;
-  // http://ignitionrobotics.org/libraries/ign_mat/api
 }
 EOF
 

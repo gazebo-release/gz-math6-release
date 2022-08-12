@@ -7,7 +7,7 @@ Build-Depends: cmake,
                dh-python,
                doxygen,
                libeigen3-dev,
-               libignition-cmake2-dev (>= 2.8.0) | libignition-cmake-dev (>= 2.8.0),
+               libignition-cmake2-dev (>= 2.13.0) | libignition-cmake-dev (>= 2.13.0),
                python3,
                python3-dev,
                python3-distutils,
@@ -15,10 +15,10 @@ Build-Depends: cmake,
                ruby-dev,
                ruby-ronn,
                swig
-Vcs-Browser: https://github.com/ignitionrobotics/ignition-math
-Vcs-Git: https://github.com/ignitionrobotics/ignition-math.git
+Vcs-Browser: https://github.com/gazebosim/gz-math
+Vcs-Git: https://github.com/gazebosim/gz-math.git
 Standards-Version: 4.5.1
-Homepage: https://bitbucket.org/ignitionrobotics/ign_math
+Homepage: https://github.com/gazebosim/gz-math
 XS-Ruby-Versions: all
 X-Python3-Version: >= 3.2
 
@@ -28,11 +28,11 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Robotics Math Library - Shared library
+Description: Gazebo Math Library - Shared library
  A small, fast, and high performance math library. This library is a
  self-contained set of classes and functions suitable for robot applications.
  .
- Ignition Robotics is a set of simple libraries that provide useful
+ Gazebo is a set of simple libraries that provide useful
  functionality to bootstrap robot applications. The included libraries
  encapsulate all the essentials, such as common math data types, console
  logging, 3D mesh management, and asynchronous message passing.
@@ -41,16 +41,16 @@ Package: libignition-math6-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-math6 (= ${binary:Version}),
-         libignition-cmake2-dev,
+         libignition-cmake2-dev (>= 2.13.0),
          ${misc:Depends}
 Replaces: libignition-math-dev (<< 6.0.0~)
 Breaks: libignition-math-dev (<< 6.0.0~)
 Multi-Arch: same
-Description: Ignition Robotics Math Library - Development files
+Description: Gazebo Math Library - Development files
  A small, fast, and high performance math library. This library is a
  self-contained set of classes and functions suitable for robot applications.
  .
- Ignition Robotics is a set of simple libraries that provide useful
+ Gazebo is a set of simple libraries that provide useful
  functionality to bootstrap robot applications. The included libraries
  encapsulate all the essentials, such as common math data types, console
  logging, 3D mesh management, and asynchronous message passing.
@@ -64,11 +64,11 @@ Depends: libignition-math6-dev (= ${binary:Version}),
 Replaces: libignition-math-dev (<< 6.0.0~)
 Breaks: libignition-math-dev (<< 6.0.0~)
 Multi-Arch: same
-Description: Ignition Robotics Math Library - Eigen3 Development files
+Description: Gazebo Math Library - Eigen3 Development files
  A small, fast, and high performance math library. This library is a
  self-contained set of classes and functions suitable for robot applications.
  .
- Ignition Robotics is a set of simple libraries that provide useful
+ Gazebo is a set of simple libraries that provide useful
  functionality to bootstrap robot applications. The included libraries
  encapsulate all the essentials, such as common math data types, console
  logging, 3D mesh management, and asynchronous message passing.
@@ -83,11 +83,11 @@ Depends: libignition-math6 (= ${binary:Version}),
          ${misc:Depends},
          ${python3:Depends}
 Enhances: libignition-math6
-Description: Ignition Robotics Math Library - Python3 bindings
+Description: Gazebo Math Library - Python3 bindings
  A small, fast, and high performance math library. This library is a
  self-contained set of classes and functions suitable for robot applications.
  .
- Ignition Robotics is a set of simple libraries that provide useful
+ Gazebo is a set of simple libraries that provide useful
  functionality to bootstrap robot applications. The included libraries
  encapsulate all the essentials, such as common math data types, console
  logging, 3D mesh management, and asynchronous message passing.
@@ -102,11 +102,11 @@ Depends: libignition-math6 (= ${binary:Version}),
          ${ruby:Depends},
          ${shlibs:Depends}
 Enhances: libignition-math6
-Description: Ignition Robotics Math Library - Ruby bindings
+Description: Gazebo Math Library - Ruby bindings
  A small, fast, and high performance math library. This library is a
  self-contained set of classes and functions suitable for robot applications.
  .
- Ignition Robotics is a set of simple libraries that provide useful
+ Gazebo is a set of simple libraries that provide useful
  functionality to bootstrap robot applications. The included libraries
  encapsulate all the essentials, such as common math data types, console
  logging, 3D mesh management, and asynchronous message passing.
@@ -121,12 +121,60 @@ Depends:
      libignition-math6 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Robotics Math Library - Debugging symbols
+Description: Gazebo Math Library - Debugging symbols
  A small, fast, and high performance math library. This library is a
  self-contained set of classes and functions suitable for robot applications.
  .
- Ignition Robotics is a set of simple libraries that provide useful
+ Gazebo is a set of simple libraries that provide useful
  functionality to bootstrap robot applications. The included libraries
  encapsulate all the essentials, such as common math data types, console
  logging, 3D mesh management, and asynchronous message passing.
+
+Package: libgz-math6
+Depends: libignition-math6, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-math6-dev
+Depends: libignition-math6-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-math6-eigen-dev
+Depends: libignition-math6-eigen-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: python3-gz-math6
+Depends: python3-ignition-math6, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: ruby-gz-math6
+Depends: ruby-ignition-math6, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-math6-dbg
+Depends: libignition-math6-dbg, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
 

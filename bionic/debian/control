@@ -116,8 +116,8 @@ Section: oldlibs
 Description: transitional package
  It's recommended to use the gz packages going forward.
 
-Package: libgz-math6-eigen-dev
-Depends: libignition-math6-eigen-dev, ${misc:Depends}
+Package: libgz-math6-eigen3-dev
+Depends: libignition-math6-eigen3-dev, ${misc:Depends}
 Architecture: all
 Priority: optional
 Section: oldlibs

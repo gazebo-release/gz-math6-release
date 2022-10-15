@@ -1,3 +1,9 @@
+ignition-math6 (6.13.0-2~bionic) bionic; urgency=medium
+
+  * ignition-math6 6.13.0-2 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Fri, 14 Oct 2022 17:06:15 -0700
+
 ignition-math6 (6.13.0-1~bionic) bionic; urgency=medium
 
   * ignition-math6 6.13.0-1 release

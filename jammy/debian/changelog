@@ -1,3 +1,9 @@
+ignition-math6 (6.13.0-2~jammy) jammy; urgency=medium
+
+  * ignition-math6 6.13.0-2 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Fri, 14 Oct 2022 17:06:16 -0700
+
 ignition-math6 (6.13.0-1~jammy) jammy; urgency=medium
 
   * ignition-math6 6.13.0-1 release

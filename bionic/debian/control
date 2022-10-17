@@ -54,6 +54,8 @@ Section: libdevel
 Depends: libignition-math6-dev (= ${binary:Version}),
          libeigen3-dev,
          ${misc:Depends}
+Replaces: libignition-math6-dev (<< ${binary:Version})
+Breaks: libignition-math6-dev (<< ${binary:Version})
 Multi-Arch: same
 Description: Gazebo Math Library - Eigen3 Development files
  A small, fast, and high performance math library. This library is a

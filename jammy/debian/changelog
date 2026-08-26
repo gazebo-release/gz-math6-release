@@ -1,3 +1,9 @@
+ignition-math6 (6.17.0-1~jammy) jammy; urgency=medium
+
+  * ignition-math6 6.17.0-1 release
+
+ -- Carlos Agüero <caguero@honurobotics.com>  Wed, 26 Aug 2026 11:17:45 +0200
+
 ignition-math6 (6.16.0-1~jammy) jammy; urgency=medium
 
   * ignition-math6 6.16.0-1 release
